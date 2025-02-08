@@ -19,9 +19,7 @@ The processed image and its metrics are displayed back to the user in a visually
 - **Contour Detection:** Detects and analyzes the shapes and structures within the building layout.
 - **K-means Clustering:** Groups layouts into similar families based on extracted features, allowing for efficient classification.
 
-
-![UI Screenshot](![image](https://github.com/user-attachments/assets/19f3e47f-d2c2-4115-8dcf-1dbe5df04992)
-)
+![image](https://github.com/user-attachments/assets/e0e38089-a3d9-4124-b3ff-62ee7626ad9d)
 
 ---
 
@@ -49,6 +47,40 @@ https://github.com/user-attachments/assets/fdf83bba-f5f9-4dfc-a8c2-8a335d6ab055
 - **Python (Flask)**: For the web server and backend logic.
 - **OpenCV**: For image processing and yellow object detection.
 - **HTML/CSS**: For the frontend, including a modern and responsive UI.
+
+## Future Improvements
+
+- Implement deep learning-based classification for improved accuracy.
+
+- Add support for additional feature extraction methods.
+
+- Optimize performance for large-scale datasets.
+
+---
+
+## Workflow
+
+### Image Preprocessing:
+
+- Convert the image to grayscale.
+
+- Apply Gaussian blurring to reduce noise.
+
+- Use adaptive thresholding to highlight key structures.
+
+### Feature Extraction:
+
+- Detect contours and extract their properties.
+
+- Count vertices using polygon approximation.
+
+- Perform color segmentation to identify key regions.
+
+### Clustering & Classification:
+
+- Use K-means clustering to group layouts into distinct families.
+
+- Assign labels to images based on extracted feature similarities.
 
 ---
 
