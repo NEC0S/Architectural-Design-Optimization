@@ -27,7 +27,7 @@ The processed image and its metrics are displayed back to the user in a visually
 
 Here’s a video demonstration of how the tool works:
 
-[![Image Analysis Tool Video Demo](video-thumbnail.png)](
+[!(video-thumbnail.png)](
 
 https://github.com/user-attachments/assets/fdf83bba-f5f9-4dfc-a8c2-8a335d6ab055
 
