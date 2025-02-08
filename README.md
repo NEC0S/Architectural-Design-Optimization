@@ -1,8 +1,8 @@
-# Architectural Design Optimization Tool
+# Architectural Design Optimization Tool - Image Processing Pipeline for Classifying Building Layouts
 
 ## Overview
 
-This project is a web-based application built with Flask that allows users to upload an image of a yellow bit map, which is then processed to calculate several key metrics, including:
+This project is an image processing pipeline designed to accurately classify bitmap images of building layouts by extracting key features. It is a web-based application built with Flask that allows users to upload an image of a yellow bit map, which is then processed to calculate several key metrics, including:
 
 - **Length** (in cm)
 - **Width** (in cm)
@@ -11,6 +11,14 @@ This project is a web-based application built with Flask that allows users to up
 - **Complexity**
 
 The processed image and its metrics are displayed back to the user in a visually appealing user interface.
+
+## Features
+- **Feature Extraction:** Extracts key features from building layout images using image processing techniques.
+- **Color Thresholding:** Identifies key regions in the layout by segmenting the image based on color intensity.
+- **Vertex Counting:** Determines the complexity of building layouts by counting the number of significant vertices.
+- **Contour Detection:** Detects and analyzes the shapes and structures within the building layout.
+- **K-means Clustering:** Groups layouts into similar families based on extracted features, allowing for efficient classification.
+
 
 ![UI Screenshot](![image](https://github.com/user-attachments/assets/19f3e47f-d2c2-4115-8dcf-1dbe5df04992)
 )
@@ -47,14 +55,15 @@ https://github.com/user-attachments/assets/fdf83bba-f5f9-4dfc-a8c2-8a335d6ab055
 ## Installation and Setup
 
 ### Prerequisites
-
-To get started with the project, make sure you have the following installed on your machine:
-
+Ensure that you have the following dependencies installed:
 - Python 3.x
-- pip (Python package manager)
+- OpenCV
+- NumPy
+- Matplotlib
+- Scikit-learn
 
 ### Clone the Repository
-
 ```bash
+pip install opencv-python numpy matplotlib scikit-learn
 git clone https://github.com/your-username/flask-image-analysis-tool.git
 cd flask-image-analysis-tool
