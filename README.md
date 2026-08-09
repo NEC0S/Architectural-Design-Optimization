@@ -50,7 +50,10 @@ The processed image and its extracted metrics are displayed back to the user thr
 
 A full walkthrough of the tool in action — image upload, processing, and metric output:
 
-**🔗 [Watch the demo](https://github.com/NEC0S/Architectural-Design-Optimization/blob/main/README.md#demo-video)** *(see the original video embed in the repo)*
+
+https://github.com/user-attachments/assets/b6996861-3dfb-4103-ba4f-468bcef9fd85
+
+
 
 </div>
 
