@@ -57,8 +57,6 @@ https://github.com/user-attachments/assets/b6996861-3dfb-4103-ba4f-468bcef9fd85
 
 </div>
 
-> 💡 **Tip:** GitHub-hosted `.mp4` demos (dragged directly into the README editor) render as inline, playable videos on the repo page — no external host needed.
-
 ---
 
 ## ✨ Features
